@@ -1,0 +1,603 @@
+ul, li, p, h1, h2, h3, body, html  {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: .02em;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+    transition: .2s;
+}
+
+a:hover {
+    color: rgb(0,117,74);
+}
+
+strong {
+    font-weight: 700;
+}
+
+h1, h2 {
+    letter-spacing: .05em;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    box-shadow: -4px 4px 6px -6px #aaa;
+}
+
+header .container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 18px 0px;
+    font-size: 14px;
+}
+
+header .kanan {
+    display: flex;
+    list-style: none;
+
+    align-items: center;
+}
+
+header .kiri {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: -45px;
+}
+
+
+.kiri .block {
+    margin-top: 5px;
+    margin-left: -60px;
+    padding-right: 10px;
+}
+
+header .kanan {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+header a {
+    padding: 15px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+
+header .kanan li {
+    padding-left: 20px;
+    display: flex;
+}
+
+header .kanan i {
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+.hijau {
+    background-color: #d4e9e2;
+}
+
+.hijau2 {
+    background-color: #1e3932;
+}
+
+.pink {
+    background-color: #f06464;
+
+}
+.pink2 {
+    background-color: #fa91aa;;
+}
+
+.putih {
+    background-color: #fff;
+}
+
+.content-home {
+    max-width: 1440px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    display: flex;
+}
+
+.kotak {
+    align-items: center;
+}
+
+
+.kotak .list .foto img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -9px;
+    animation: animasiGambar 3s;
+}
+
+@keyframes animasiGambar {
+    from {
+        filter: opacity(0);
+    }
+
+    to {
+        filter: opacity(1);
+    }
+}
+
+.kotak .list .desc {
+    margin: 0 15px;
+    align-items: center;
+    color: #1e3932;
+}
+
+.kotak .list .desc h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.kotak .list .desc2 {
+    margin: 40px 15px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.kotak .list .desc3 {
+    margin: 40px 15px;
+    font-size: 24px;
+    color: #1e3932;
+}
+
+.kotak .list .desc3 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #1e3932;
+    margin-top: 40px;
+}
+
+.kotak .list .desc2 h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 40px;
+}
+
+.kotak .list .desc p {
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.kotak .list .desc2 p {
+    padding: 28px;
+    font-size: 24px;
+}
+
+.kotak .list .desc3 p {
+    padding: 28px;
+    font-size: 24px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #1e3932;
+    border-radius: 50px;
+    padding: 10px 18px;
+    transition: .2s;
+}
+
+button a {
+    font-weight: 600;
+}
+
+button.btn-play {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 15px;
+    margin: 20px 0 35px 0;
+    border: 1px solid #1e3932;
+}
+
+button.btn-play:hover {
+    background-color: rgba(0,0,0,.1);
+}
+
+button.btn-play a {
+    color: #1e3932;
+}
+
+
+button.btn-hitam {
+    background: #222;
+    border: 1px solid #222;
+    padding: 7px 0;
+}
+
+button.btn-hitam a {
+    color: #fff;
+    font-size: 14px;
+}
+
+button.btn-hitam:hover {
+    background: #555;
+    border: 1px solid #555;
+}
+
+button.btn-putih {
+    border: 1px solid #fff;
+
+}
+
+button.btn-putih a {
+    color: #fff;
+}
+
+button.btn-putih2 {
+    background: transparent;
+    border: 1px solid #222;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+button.btn-putih2:hover {
+    background: #ddd;
+    border: 1px solid #222;
+}
+
+button.btn-putih2 a:hover {
+    color: #222;
+}
+
+.note {
+    margin: 40px auto 30px auto;
+    max-width: 625px;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.note p {
+    padding: 30px;
+}
+
+.note p span a {
+    text-decoration: underline;
+}
+
+.note p span a:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: -4px 4px 6px 1px #aaa;
+    font-size: 16px;
+}
+
+.sitemap {
+    max-width: 1440px;
+    margin: 5px auto;
+    color: rgba(0,0,0,.7);
+}
+
+.sitemap .list {
+    display: inline-block;
+}
+
+.sitemap .list h3 {
+    font-weight: 500;
+    font-size: 19px;
+    color: rgba(0,0,0,.9);
+}
+
+.sitemap .list ul {
+    list-style: none;
+    width: 190px;
+    margin-right: 30px;
+}
+
+.sitemap .list ul li {
+    margin: 22px 0;
+}
+
+.sitemap .list ul li a {
+    color: rgb(0,0,0,.6);
+}
+
+.sitemap .list ul li a:hover {
+    color: rgb(0,0,0,.9);
+}
+
+.footer2 {
+    max-width: 1440px;
+    align-items: center;
+    border-top: 2px solid #ddd;
+    margin: 30px auto;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.footer2 .medsos {
+    display: flex;
+    list-style: none;
+}
+
+.footer2 .medsos li {
+    margin: 20px 15px 0 0;
+}
+
+.footer2 .medsos li a {
+    font-size: 32px;
+    transition: .2s;
+}
+
+.footer2 .medsos li a:hover {
+    color: #555;
+}
+
+.footer2 ul.terms {
+    padding: 18px 0px;
+}
+
+.footer2 ul.terms li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.footer2 ul.terms li a {
+    color: rgba(0,0,0,.9);
+}
+
+.footer2 ul.terms li:first-child {
+    padding-left: 0;
+}
+
+.footer2 ul.terms li a:hover {
+    color: rgba(0,0,0,.9);
+    text-decoration: underline;
+}
+
+.footer2 p.copy {
+    font-size: 14px;
+    color: rgba(0,0,0,.5);
+}
+
+/* planet */
+
+.container2 {
+    max-width: 1440px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.commit {
+    padding: 10px 10px 20px 10px;
+    max-width: 720px;
+    color: #1e3932;
+}
+
+.commit h2.planet-h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-align: center;
+}
+
+.commit p {
+    font-size: 16px;
+}
+
+.kotak .list .respons {
+    margin: auto 20px;
+    text-align: left;
+}
+
+.kotak .list .respons h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #1e3932;
+    margin-top: 30px;
+}
+
+.kotak .list .respons p {
+    font-size: 19px;
+    color: #1e3932;
+    margin: 20px 190px 20px 0;
+    max-width: 480px;
+}
+
+.container3 {
+    max-width: 1440px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.kotak2 {
+    padding: 0;
+    align-items: center;    
+}
+
+.kotak2 .list2 {
+    margin: 15px auto;
+}
+
+.kotak2 .list2 .foto img {
+    width: 100%;
+    object-fit: cover;
+    animation: animasiGambar 5s;
+}
+
+.kotak2 .list2 .focus {
+    padding: 30px 0;
+    color: #1e3932;
+}
+
+.commit h2.planet-h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 1.2;
+    margin: 20px;
+}
+
+.list2 .focus p {
+    text-align: left;
+    margin: auto 20px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+button.btn-learn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border: 1px solid #1e3932;
+}
+
+button.btn-learn:hover {
+    background-color: rgba(0,0,0,.1);
+}
+
+button.btn-learn a {
+    color: #1e3932;
+}
+
+
+/* ==== Responsive ==== */
+
+@media(min-width: 720px) {
+    .kotak {
+        padding: 0;
+        display: flex;
+        align-items: center;    
+    }
+    
+    .kotak .list {
+        display: flex;
+        width: 50%;
+    }
+
+    .kotak .list .desc {
+        margin: auto;
+        padding: 0 100px;
+    }   
+    
+    .kotak .list .desc2 {
+        margin: auto;
+        padding: 0 110px;
+        font-size: 24px;
+        color: #fff;
+    }
+    
+    .kotak .list .desc3 {
+        margin: 40px auto;
+        padding: 0 110px;
+    }
+    
+    .note {
+        margin: 40px auto 30px auto;
+    }
+    
+    .footer {
+        padding: 20px 100px 10px 100px;
+    }
+    
+    .footer2 {
+        margin: 30px auto;
+        padding-top: 10px;
+    }
+
+    .footer2 ul.terms li {
+        list-style: none;
+        display: inline-flex;
+        padding: 20px 30px;
+    }
+    
+    .sitemap .list {
+        display: flex;
+    }
+    
+    .footer2 ul.terms li {
+        border-right: 2px solid rgba(0,0,0,.5);
+        line-height: 14px;
+        padding: 4px 25px;
+    }
+    
+    .footer2 ul.terms li:last-child {
+        border-right: none;
+    }
+
+    .container2 {
+        display: flex;
+        margin: 20px auto 0 auto;
+        text-align: center;
+    }
+    
+    .commit {
+        margin: 10px auto;
+        padding: 0 200px;
+        max-width: 720px;
+    }
+    
+    .commit p {
+        margin: 10px auto;
+    }
+
+    .kotak .list .respons {
+        text-align: left;
+        margin-left: 50px;
+    }
+    
+    .kotak .list .respons p {
+        margin: 20px 50px 20px 0;
+    }
+
+    .container3 {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .kotak2 {
+        padding: 0;
+        display: flex;
+        align-items: center;    
+    }
+    
+    .kotak2 .list2 {
+        width: 50%;
+        display: flex;
+        margin: 15px auto;
+    }    
+    
+    .commit h2.planet-h1 {
+        font-size: 50px;
+        margin: 20px auto 25px 0;
+    }
+
+    .commit p {
+        font-size: 19px;
+        max-width: 720px;
+        margin: 10px auto;
+    }
+
+    .list2 .focus p {
+        max-width: 450px;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+    
+
+}

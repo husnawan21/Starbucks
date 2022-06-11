@@ -1,0 +1,8 @@
+color light green #d4e9e2
+font ijo #1e3932
+hijau2 #1e3932
+pink #f06464
+pink2 #fa91aa
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+        </style> 
